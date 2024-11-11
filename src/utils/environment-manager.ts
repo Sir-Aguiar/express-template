@@ -8,6 +8,7 @@ export class EnvironmentManager {
   static DATASOURCE_DB = process.env.DATASOURCE_DB!;
   static SALT = process.env.SALT!;
   static SECRET = process.env.SECRET!;
+  static ENCODING_KEY = process.env
   static DEV_FRONTEND_HOST = process.env.DEV_FRONTEND_HOST!;
   static PROD_FRONTEND_HOST = process.env.PROD_FRONTEND_HOST!;
   static ENVIRONMENT = process.env.ENVIRONMENT!;
@@ -21,6 +22,7 @@ export class EnvironmentManager {
     "DATASOURCE_DB",
     "SALT",
     "SECRET",
+    "ENCODING_KEY",
     "DEV_FRONTEND_HOST",
     "PROD_FRONTEND_HOST",
     "ENVIRONMENT",
